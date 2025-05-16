@@ -1,0 +1,22 @@
+/* Limit width only on Description column */
+table.dataTable td.description-column,
+table.dataTable th.description-column {
+  max-width: 150px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* Optional: Tooltip-style hover for Description only */
+table.dataTable td.description-column {
+  cursor: help;
+}
+
+table.dataTable td.description-column:hover {
+  overflow: visible;
+  white-space: normal;
+  background-color: #f8f9fa;
+  z-index: 1;
+  position: relative;
+}
+

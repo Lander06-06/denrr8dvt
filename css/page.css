@@ -1,0 +1,11 @@
+/* Apply gradient background to the whole page */
+body {
+    background: linear-gradient(to right, #58e3ed, #97ea92) !important; /* Pink to light blue gradient */
+    color: #333; /* Optional: Set text color for visibility */
+}
+
+/* Apply the same gradient to the content wrapper */
+.content-wrapper {
+    background: linear-gradient(to right, #58e3ed, #97ea92) !important; /* Pink to light blue gradient */
+    color: #333; /* Optional: Adjust text color if needed */
+}
